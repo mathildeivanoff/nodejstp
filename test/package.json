@@ -1,0 +1,23 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "~2.5.2",
+    "hapi": "~15.1.1",
+    "lodash": "~4.16.3",
+    "mysql": "~2.11.1",
+    "sequelize": "~3.24.3",
+    "vision": "~4.1.0"
+  },
+  "scripts": {
+    "start": "node ./index",
+    "db:sync": "DB_SYNC=true node ./database.js"
+  }
+}
